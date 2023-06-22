@@ -1,0 +1,243 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+   display: flex;
+   justify-content: flex-end;
+   width: 100%;
+   background-color: black;
+   height: auto;
+}
+
+.navbar a {
+    margin: 0 10px;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: black;
+    font-size: 40px;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+    background-color:black;
+    color: white;
+    height: auto;
+}
+
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: black;
+    color: white;
+}
+
+h1 span {
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.header-left {
+    margin-right: 20px;
+}
+
+#me{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+}    
+
+.header-right h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: underline;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-project {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sub-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.sub-project {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.sub-image {
+    width: 30%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer h3 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 0;
+    background-color: black;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+}
+
+footer ul li {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: black;
+}
+
+
+footer ul li a {
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+@media only screen and (max-width: 340px) {
+    .navbar {
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 20%;
+    }
+
+    .navbar a {
+        margin: 5px;
+        padding: 2px 5px;
+        font-size: 15px;
+    }
+
+    h1 {
+        height: 20%;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .name {
+        font-size: 10px;
+    }
+
+    .name-last {
+        display: block;
+        font-size: 10px;
+        position: relative;
+        margin-top: 5px;
+        align-items: left;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .header-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #me {
+        height: 150px;
+        width: 150px;
+    }
+
+    .header-right {
+        text-align: center;
+    }
+
+    .main-project {
+        margin-bottom: 10px;
+    }
+
+    .sub-projects .sub-project {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .sub-image {
+        width: 50%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    footer h3 {
+        font-size: 40px;
+    }
+
+    footer ul li {
+        font-size: 18px;
+    }
+}
+  
+
+
