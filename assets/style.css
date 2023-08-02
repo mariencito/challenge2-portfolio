@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Courier New', Courier, monospace;
     background-color: grey;
     box-sizing: border-box;
@@ -6,14 +6,16 @@
     padding: 0;
 }
 
-.navbar{
-   display: flex;
-   justify-content: flex-end;
-   width: 100%;
-   background-color: black;
-   height: auto;
+/* this is the nav links */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: black;
+    height: auto;
 }
 
+/* these are the actual words of the links */
 .navbar a {
     margin: 0 10px;
     color: white;
@@ -23,19 +25,20 @@
     font-size: 40px;
 }
 
+/* hover effect */
 .navbar a:hover {
     color: gray;
 }
 
-nav{
+nav {
     display: flex;
     padding: 20px;
-    background-color:black;
+    background-color: black;
     color: white;
     height: auto;
 }
 
-h1{
+h1 {
     font-size: 50px;
     display: flex;
     justify-content: left;
@@ -50,33 +53,38 @@ h1 span {
     background-color: black;
 }
 
-.header{
+/* this is the about me section  */
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 
+/* now it is in a two column section */
 
 .header-left {
     margin-right: 20px;
 }
 
-#me{
+/* picture of me */
+
+#me {
     height: 200px;
     width: 200px;
     position: relative;
     align-items: center;
     justify-content: center;
-    
-}    
 
+}
+
+/* right side of the column */
 .header-right h2 {
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-h2{
+h2 {
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -84,6 +92,7 @@ h2{
     text-decoration: underline;
 }
 
+/* from here to line 126 it is the pictures of the projects */
 .work {
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +112,7 @@ h2{
     justify-content: center;
     text-align: center;
 }
+
 .sub-project {
     width: 50%;
     padding: 10px;
@@ -159,6 +169,8 @@ footer ul li a {
     text-decoration: underline;
     background-color: black;
 }
+
+/* Mobile Accesibility */
 
 @media only screen and (max-width: 400px) {
     .navbar {
@@ -238,6 +250,3 @@ footer ul li a {
         font-size: 18px;
     }
 }
-  
-
-
